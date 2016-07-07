@@ -31,6 +31,14 @@ class ClotheSearchUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        app.textFields["Tell me, what are you looking for?"].tap()
+        app.textFields["Tell me, what are you looking for?"].typeText("Gap Floral Pants")
+        app.buttons["Search"].tap()
+        
+        XCTAssertEqual(app.navigationBars.element.identifier, "Search Results")
+        
     }
     
 }
