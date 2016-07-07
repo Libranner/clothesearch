@@ -17,7 +17,49 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        
+        
+        
+        
+        /*let clothingTypes = ["Denim" , "Pants", "Sweaters", "Skirts", "Dresses"]
+        
+        loadTestData("ClothingType", idField: "clothingTypeId", data: clothingTypes)
+
+        
+        
+        let brands = ["Gap" , "Banana Republic", "Boss", "Hugo Boss", "Taylor",  "Rebecca Taylor"]
+        
+        loadTestData("Brand", idField: "brandId", data: brands)*/
+        
+        
         return true
+    }
+    
+    
+    func loadTestData(entity: String, idField: String, data: [String]){
+        
+        let managedContext = self.managedObjectContext
+        
+        let entity =  NSEntityDescription.entityForName(entity, inManagedObjectContext:managedContext)
+        
+        
+        var idx = 0;
+        for value in data {
+            idx += 1
+            let record = NSManagedObject(entity: entity!,
+                                        insertIntoManagedObjectContext: managedContext)
+            
+            record.setValue(value, forKey: "name")
+            record.setValue(idx, forKey: idField)
+
+            do {
+                try managedContext.save()
+            } catch let error as NSError  {
+                print("Could not save \(error), \(error.userInfo)")
+            }
+        }
     }
 
     func applicationWillResignActive(application: UIApplication) {
