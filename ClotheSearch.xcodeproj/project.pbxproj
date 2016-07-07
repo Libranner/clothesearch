@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE007FF81D2EF4A100D6121A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE007FF71D2EF4A100D6121A /* AppDelegate.swift */; };
+		EE007FFA1D2EF4A100D6121A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE007FF91D2EF4A100D6121A /* ViewController.swift */; };
+		EE007FFD1D2EF4A100D6121A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE007FFB1D2EF4A100D6121A /* Main.storyboard */; };
+		EE0080001D2EF4A100D6121A /* ClotheSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE007FFE1D2EF4A100D6121A /* ClotheSearch.xcdatamodeld */; };
+		EE0080021D2EF4A100D6121A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0080011D2EF4A100D6121A /* Assets.xcassets */; };
+		EE0080051D2EF4A100D6121A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0080031D2EF4A100D6121A /* LaunchScreen.storyboard */; };
+		EE0080101D2EF4A100D6121A /* ClotheSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00800F1D2EF4A100D6121A /* ClotheSearchTests.swift */; };
+		EE00801B1D2EF4A100D6121A /* ClotheSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00801A1D2EF4A100D6121A /* ClotheSearchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE00800C1D2EF4A100D6121A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE007FEC1D2EF4A100D6121A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE007FF31D2EF4A100D6121A;
+			remoteInfo = ClotheSearch;
+		};
+		EE0080171D2EF4A100D6121A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE007FEC1D2EF4A100D6121A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE007FF31D2EF4A100D6121A;
+			remoteInfo = ClotheSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE007FF41D2EF4A100D6121A /* ClotheSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClotheSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE007FF71D2EF4A100D6121A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE007FF91D2EF4A100D6121A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE007FFC1D2EF4A100D6121A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE007FFF1D2EF4A100D6121A /* ClotheSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClotheSearch.xcdatamodel; sourceTree = "<group>"; };
+		EE0080011D2EF4A100D6121A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE0080041D2EF4A100D6121A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE0080061D2EF4A100D6121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE00800B1D2EF4A100D6121A /* ClotheSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClotheSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE00800F1D2EF4A100D6121A /* ClotheSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClotheSearchTests.swift; sourceTree = "<group>"; };
+		EE0080111D2EF4A100D6121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0080161D2EF4A100D6121A /* ClotheSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClotheSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE00801A1D2EF4A100D6121A /* ClotheSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClotheSearchUITests.swift; sourceTree = "<group>"; };
+		EE00801C1D2EF4A100D6121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE007FF11D2EF4A100D6121A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0080081D2EF4A100D6121A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0080131D2EF4A100D6121A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE007FEB1D2EF4A100D6121A = {
+			isa = PBXGroup;
+			children = (
+				EE007FF61D2EF4A100D6121A /* ClotheSearch */,
+				EE00800E1D2EF4A100D6121A /* ClotheSearchTests */,
+				EE0080191D2EF4A100D6121A /* ClotheSearchUITests */,
+				EE007FF51D2EF4A100D6121A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE007FF51D2EF4A100D6121A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE007FF41D2EF4A100D6121A /* ClotheSearch.app */,
+				EE00800B1D2EF4A100D6121A /* ClotheSearchTests.xctest */,
+				EE0080161D2EF4A100D6121A /* ClotheSearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE007FF61D2EF4A100D6121A /* ClotheSearch */ = {
+			isa = PBXGroup;
+			children = (
+				EE007FF71D2EF4A100D6121A /* AppDelegate.swift */,
+				EE007FF91D2EF4A100D6121A /* ViewController.swift */,
+				EE007FFB1D2EF4A100D6121A /* Main.storyboard */,
+				EE0080011D2EF4A100D6121A /* Assets.xcassets */,
+				EE0080031D2EF4A100D6121A /* LaunchScreen.storyboard */,
+				EE0080061D2EF4A100D6121A /* Info.plist */,
+				EE007FFE1D2EF4A100D6121A /* ClotheSearch.xcdatamodeld */,
+			);
+			path = ClotheSearch;
+			sourceTree = "<group>";
+		};
+		EE00800E1D2EF4A100D6121A /* ClotheSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE00800F1D2EF4A100D6121A /* ClotheSearchTests.swift */,
+				EE0080111D2EF4A100D6121A /* Info.plist */,
+			);
+			path = ClotheSearchTests;
+			sourceTree = "<group>";
+		};
+		EE0080191D2EF4A100D6121A /* ClotheSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE00801A1D2EF4A100D6121A /* ClotheSearchUITests.swift */,
+				EE00801C1D2EF4A100D6121A /* Info.plist */,
+			);
+			path = ClotheSearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE007FF31D2EF4A100D6121A /* ClotheSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE00801F1D2EF4A100D6121A /* Build configuration list for PBXNativeTarget "ClotheSearch" */;
+			buildPhases = (
+				EE007FF01D2EF4A100D6121A /* Sources */,
+				EE007FF11D2EF4A100D6121A /* Frameworks */,
+				EE007FF21D2EF4A100D6121A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClotheSearch;
+			productName = ClotheSearch;
+			productReference = EE007FF41D2EF4A100D6121A /* ClotheSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE00800A1D2EF4A100D6121A /* ClotheSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0080221D2EF4A100D6121A /* Build configuration list for PBXNativeTarget "ClotheSearchTests" */;
+			buildPhases = (
+				EE0080071D2EF4A100D6121A /* Sources */,
+				EE0080081D2EF4A100D6121A /* Frameworks */,
+				EE0080091D2EF4A100D6121A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE00800D1D2EF4A100D6121A /* PBXTargetDependency */,
+			);
+			name = ClotheSearchTests;
+			productName = ClotheSearchTests;
+			productReference = EE00800B1D2EF4A100D6121A /* ClotheSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE0080151D2EF4A100D6121A /* ClotheSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE0080251D2EF4A100D6121A /* Build configuration list for PBXNativeTarget "ClotheSearchUITests" */;
+			buildPhases = (
+				EE0080121D2EF4A100D6121A /* Sources */,
+				EE0080131D2EF4A100D6121A /* Frameworks */,
+				EE0080141D2EF4A100D6121A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE0080181D2EF4A100D6121A /* PBXTargetDependency */,
+			);
+			name = ClotheSearchUITests;
+			productName = ClotheSearchUITests;
+			productReference = EE0080161D2EF4A100D6121A /* ClotheSearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE007FEC1D2EF4A100D6121A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Libranner Leonel Santos Espinal";
+				TargetAttributes = {
+					EE007FF31D2EF4A100D6121A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KH7D2YUBPG;
+					};
+					EE00800A1D2EF4A100D6121A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KH7D2YUBPG;
+						TestTargetID = EE007FF31D2EF4A100D6121A;
+					};
+					EE0080151D2EF4A100D6121A = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KH7D2YUBPG;
+						TestTargetID = EE007FF31D2EF4A100D6121A;
+					};
+				};
+			};
+			buildConfigurationList = EE007FEF1D2EF4A100D6121A /* Build configuration list for PBXProject "ClotheSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE007FEB1D2EF4A100D6121A;
+			productRefGroup = EE007FF51D2EF4A100D6121A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE007FF31D2EF4A100D6121A /* ClotheSearch */,
+				EE00800A1D2EF4A100D6121A /* ClotheSearchTests */,
+				EE0080151D2EF4A100D6121A /* ClotheSearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE007FF21D2EF4A100D6121A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0080051D2EF4A100D6121A /* LaunchScreen.storyboard in Resources */,
+				EE0080021D2EF4A100D6121A /* Assets.xcassets in Resources */,
+				EE007FFD1D2EF4A100D6121A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0080091D2EF4A100D6121A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0080141D2EF4A100D6121A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE007FF01D2EF4A100D6121A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0080001D2EF4A100D6121A /* ClotheSearch.xcdatamodeld in Sources */,
+				EE007FFA1D2EF4A100D6121A /* ViewController.swift in Sources */,
+				EE007FF81D2EF4A100D6121A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0080071D2EF4A100D6121A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0080101D2EF4A100D6121A /* ClotheSearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE0080121D2EF4A100D6121A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE00801B1D2EF4A100D6121A /* ClotheSearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE00800D1D2EF4A100D6121A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE007FF31D2EF4A100D6121A /* ClotheSearch */;
+			targetProxy = EE00800C1D2EF4A100D6121A /* PBXContainerItemProxy */;
+		};
+		EE0080181D2EF4A100D6121A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE007FF31D2EF4A100D6121A /* ClotheSearch */;
+			targetProxy = EE0080171D2EF4A100D6121A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE007FFB1D2EF4A100D6121A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE007FFC1D2EF4A100D6121A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE0080031D2EF4A100D6121A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE0080041D2EF4A100D6121A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE00801D1D2EF4A100D6121A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE00801E1D2EF4A100D6121A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE0080201D2EF4A100D6121A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClotheSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsantos.ClotheSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE0080211D2EF4A100D6121A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ClotheSearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsantos.ClotheSearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE0080231D2EF4A100D6121A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClotheSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsantos.ClotheSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClotheSearch.app/ClotheSearch";
+			};
+			name = Debug;
+		};
+		EE0080241D2EF4A100D6121A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ClotheSearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsantos.ClotheSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClotheSearch.app/ClotheSearch";
+			};
+			name = Release;
+		};
+		EE0080261D2EF4A100D6121A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClotheSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsantos.ClotheSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClotheSearch;
+			};
+			name = Debug;
+		};
+		EE0080271D2EF4A100D6121A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ClotheSearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lsantos.ClotheSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ClotheSearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE007FEF1D2EF4A100D6121A /* Build configuration list for PBXProject "ClotheSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE00801D1D2EF4A100D6121A /* Debug */,
+				EE00801E1D2EF4A100D6121A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE00801F1D2EF4A100D6121A /* Build configuration list for PBXNativeTarget "ClotheSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0080201D2EF4A100D6121A /* Debug */,
+				EE0080211D2EF4A100D6121A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE0080221D2EF4A100D6121A /* Build configuration list for PBXNativeTarget "ClotheSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0080231D2EF4A100D6121A /* Debug */,
+				EE0080241D2EF4A100D6121A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE0080251D2EF4A100D6121A /* Build configuration list for PBXNativeTarget "ClotheSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0080261D2EF4A100D6121A /* Debug */,
+				EE0080271D2EF4A100D6121A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE007FFE1D2EF4A100D6121A /* ClotheSearch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE007FFF1D2EF4A100D6121A /* ClotheSearch.xcdatamodel */,
+			);
+			currentVersion = EE007FFF1D2EF4A100D6121A /* ClotheSearch.xcdatamodel */;
+			path = ClotheSearch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE007FEC1D2EF4A100D6121A /* Project object */;
+}
