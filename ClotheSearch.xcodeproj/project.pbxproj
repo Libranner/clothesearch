@@ -13,8 +13,15 @@
 		EE0080001D2EF4A100D6121A /* ClotheSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE007FFE1D2EF4A100D6121A /* ClotheSearch.xcdatamodeld */; };
 		EE0080021D2EF4A100D6121A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0080011D2EF4A100D6121A /* Assets.xcassets */; };
 		EE0080051D2EF4A100D6121A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0080031D2EF4A100D6121A /* LaunchScreen.storyboard */; };
-		EE0080101D2EF4A100D6121A /* ClotheSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00800F1D2EF4A100D6121A /* ClotheSearchTests.swift */; };
 		EE00801B1D2EF4A100D6121A /* ClotheSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00801A1D2EF4A100D6121A /* ClotheSearchUITests.swift */; };
+		EE0080371D2EF91000D6121A /* SearchEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0080361D2EF91000D6121A /* SearchEngine.swift */; };
+		EE00803B1D2F101000D6121A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00803A1D2F101000D6121A /* SearchViewController.swift */; };
+		EE00803D1D2F135500D6121A /* SearchResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00803C1D2F135500D6121A /* SearchResultTableViewController.swift */; };
+		EE0080431D2F18FF00D6121A /* Brand+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE00803F1D2F18FF00D6121A /* Brand+CoreDataProperties.swift */; };
+		EE0080441D2F18FF00D6121A /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0080401D2F18FF00D6121A /* Brand.swift */; };
+		EE0080451D2F18FF00D6121A /* ClothingType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0080411D2F18FF00D6121A /* ClothingType+CoreDataProperties.swift */; };
+		EE0080461D2F18FF00D6121A /* ClothingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0080421D2F18FF00D6121A /* ClothingType.swift */; };
+		EE0080481D2F19F700D6121A /* SearchEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0080471D2F19F700D6121A /* SearchEngineTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,11 +51,18 @@
 		EE0080041D2EF4A100D6121A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE0080061D2EF4A100D6121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE00800B1D2EF4A100D6121A /* ClotheSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClotheSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE00800F1D2EF4A100D6121A /* ClotheSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClotheSearchTests.swift; sourceTree = "<group>"; };
 		EE0080111D2EF4A100D6121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE0080161D2EF4A100D6121A /* ClotheSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClotheSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE00801A1D2EF4A100D6121A /* ClotheSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClotheSearchUITests.swift; sourceTree = "<group>"; };
 		EE00801C1D2EF4A100D6121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE0080361D2EF91000D6121A /* SearchEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngine.swift; sourceTree = "<group>"; };
+		EE00803A1D2F101000D6121A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EE00803C1D2F135500D6121A /* SearchResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewController.swift; sourceTree = "<group>"; };
+		EE00803F1D2F18FF00D6121A /* Brand+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Brand+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EE0080401D2F18FF00D6121A /* Brand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		EE0080411D2F18FF00D6121A /* ClothingType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ClothingType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EE0080421D2F18FF00D6121A /* ClothingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothingType.swift; sourceTree = "<group>"; };
+		EE0080471D2F19F700D6121A /* SearchEngineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +113,9 @@
 		EE007FF61D2EF4A100D6121A /* ClotheSearch */ = {
 			isa = PBXGroup;
 			children = (
+				EE00803E1D2F18DB00D6121A /* Models */,
+				EE0080391D2F0FFD00D6121A /* Controllers */,
+				EE0080351D2EF8F800D6121A /* Business Logic */,
 				EE007FF71D2EF4A100D6121A /* AppDelegate.swift */,
 				EE007FF91D2EF4A100D6121A /* ViewController.swift */,
 				EE007FFB1D2EF4A100D6121A /* Main.storyboard */,
@@ -113,8 +130,8 @@
 		EE00800E1D2EF4A100D6121A /* ClotheSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				EE00800F1D2EF4A100D6121A /* ClotheSearchTests.swift */,
 				EE0080111D2EF4A100D6121A /* Info.plist */,
+				EE0080471D2F19F700D6121A /* SearchEngineTests.swift */,
 			);
 			path = ClotheSearchTests;
 			sourceTree = "<group>";
@@ -126,6 +143,34 @@
 				EE00801C1D2EF4A100D6121A /* Info.plist */,
 			);
 			path = ClotheSearchUITests;
+			sourceTree = "<group>";
+		};
+		EE0080351D2EF8F800D6121A /* Business Logic */ = {
+			isa = PBXGroup;
+			children = (
+				EE0080361D2EF91000D6121A /* SearchEngine.swift */,
+			);
+			name = "Business Logic";
+			sourceTree = "<group>";
+		};
+		EE0080391D2F0FFD00D6121A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EE00803A1D2F101000D6121A /* SearchViewController.swift */,
+				EE00803C1D2F135500D6121A /* SearchResultTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EE00803E1D2F18DB00D6121A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE00803F1D2F18FF00D6121A /* Brand+CoreDataProperties.swift */,
+				EE0080401D2F18FF00D6121A /* Brand.swift */,
+				EE0080411D2F18FF00D6121A /* ClothingType+CoreDataProperties.swift */,
+				EE0080421D2F18FF00D6121A /* ClothingType.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0080371D2EF91000D6121A /* SearchEngine.swift in Sources */,
+				EE0080461D2F18FF00D6121A /* ClothingType.swift in Sources */,
 				EE0080001D2EF4A100D6121A /* ClotheSearch.xcdatamodeld in Sources */,
+				EE00803B1D2F101000D6121A /* SearchViewController.swift in Sources */,
+				EE0080451D2F18FF00D6121A /* ClothingType+CoreDataProperties.swift in Sources */,
+				EE00803D1D2F135500D6121A /* SearchResultTableViewController.swift in Sources */,
 				EE007FFA1D2EF4A100D6121A /* ViewController.swift in Sources */,
+				EE0080441D2F18FF00D6121A /* Brand.swift in Sources */,
 				EE007FF81D2EF4A100D6121A /* AppDelegate.swift in Sources */,
+				EE0080431D2F18FF00D6121A /* Brand+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0080101D2EF4A100D6121A /* ClotheSearchTests.swift in Sources */,
+				EE0080481D2F19F700D6121A /* SearchEngineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,10 +458,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ClotheSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lsantos.ClotheSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -417,6 +471,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ClotheSearch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lsantos.ClotheSearch;
