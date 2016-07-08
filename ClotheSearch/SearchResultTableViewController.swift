@@ -60,6 +60,28 @@ class SearchResultTableViewController: UITableViewController {
 
         return cell
     }
+    
+    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let view = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 40))
+        
+        
+        let img: UIImage = UIImage(named: "clothes-logo")!
+        let imageView = UIImageView(image: img)
+        
+        let label = UILabel(frame: CGRect(x: 40, y: 5, width: self.view.frame.width, height: 40))
+        label.text = sections[section]
+        label.textColor = UIColor.whiteColor()
+        
+        view.addSubview(imageView)
+        view.addSubview(label)
+        
+        view.backgroundColor = UIColor(red: 78/255, green: 220/255, blue: 134/255, alpha: 1)
+        return view
+    }
+    
+    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 40
+    }
  
 
     /*
