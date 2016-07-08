@@ -22,6 +22,7 @@
 		EE0080451D2F18FF00D6121A /* ClothingType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0080411D2F18FF00D6121A /* ClothingType+CoreDataProperties.swift */; };
 		EE0080461D2F18FF00D6121A /* ClothingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0080421D2F18FF00D6121A /* ClothingType.swift */; };
 		EE0080481D2F19F700D6121A /* SearchEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0080471D2F19F700D6121A /* SearchEngineTests.swift */; };
+		EE00804A1D2F232700D6121A /* SearchResultsControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0080491D2F232700D6121A /* SearchResultsControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		EE0080411D2F18FF00D6121A /* ClothingType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ClothingType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EE0080421D2F18FF00D6121A /* ClothingType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClothingType.swift; sourceTree = "<group>"; };
 		EE0080471D2F19F700D6121A /* SearchEngineTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchEngineTests.swift; sourceTree = "<group>"; };
+		EE0080491D2F232700D6121A /* SearchResultsControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				EE0080111D2EF4A100D6121A /* Info.plist */,
 				EE0080471D2F19F700D6121A /* SearchEngineTests.swift */,
+				EE0080491D2F232700D6121A /* SearchResultsControllerTests.swift */,
 			);
 			path = ClotheSearchTests;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE00804A1D2F232700D6121A /* SearchResultsControllerTests.swift in Sources */,
 				EE0080481D2F19F700D6121A /* SearchEngineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

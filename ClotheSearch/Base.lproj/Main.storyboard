@@ -50,7 +50,9 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="122" id="fdu-Bw-tNq"/>
                                 </constraints>
-                                <state key="normal" title="Search"/>
+                                <state key="normal" title="Search">
+                                    <color key="titleColor" red="0.3056924544572866" green="0.86153846153846159" blue="0.52480526633503177" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="searchButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ztM-H2-6KS"/>
                                 </connections>
